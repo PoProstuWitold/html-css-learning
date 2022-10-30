@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-simple-blog",
+  "version": "1.0.0",
+  "description": "Simple blog layout using TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "tailwind",
+    "blog",
+    "design"
+  ],
+  "author": "PoProstuWitold",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
